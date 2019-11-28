@@ -18,8 +18,8 @@
 /*     */ import javax.swing.JSeparator;
 /*     */ import javax.swing.JTextField;
 /*     */ 
-/*     */ public class JavaApplication12 {
-/*     */   public JavaApplication12() {
+/*     */ public class Currencyconvert {
+/*     */   public Currencyconvert() {
 /*  23 */     final JFrame f = new JFrame("Currency Conveter");
 /*     */ 
 /*     */     
@@ -171,11 +171,11 @@
 /*     */ 
 /*     */             
 /* 173 */             DecimalFormat format = new DecimalFormat("#0.000");
-/* 174 */             value = JavaApplication12.this.api(nameCurrency1, nameCurrency2);
+/* 174 */             value = Currencyconvert.this.api(nameCurrency1, nameCurrency2);
 /*     */             
 /* 176 */             Amount = Double.valueOf(Double.parseDouble(t1.getText()));
 /*     */             
-/* 178 */             Double price = JavaApplication12.this.CurrencyConvert(nameCurrency1, nameCurrency2, Amount, value);
+/* 178 */             Double price = Currencyconvert.this.CurrencyConvert(nameCurrency1, nameCurrency2, Amount, value);
 /*     */             
 /* 180 */             String formattedAmount = format.format(Amount);
 /* 181 */             String formattedprice = format.format(price);
@@ -197,7 +197,7 @@
 /* 197 */     l10.addMouseListener(new MouseAdapter()
 /*     */         {
 /*     */           public void mouseClicked(MouseEvent e) {
-/* 200 */             int z = JavaApplication12.this.internetcheck();
+/* 200 */             int z = Currencyconvert.this.internetcheck();
 /* 201 */             if (z == 0) { t1.setEnabled(true); btn1.setEnabled(true); l10.setText("Internet Connected"); l10.setForeground(Color.green); }
 /*     */           
 /*     */           }
@@ -417,7 +417,7 @@
 /*     */   }
 /*     */ 
 /*     */   
-/* 420 */   public static void main(String[] args) { JavaApplication12 JA = new JavaApplication12(); }
+/* 420 */   public static void main(String[] args) { Currencyconvert JA = new Currencyconvert(); }
 /*     */ }
 
 

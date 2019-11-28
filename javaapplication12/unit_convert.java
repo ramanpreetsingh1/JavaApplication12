@@ -81,7 +81,7 @@
 /*  81 */     btn11.addActionListener(new AbstractAction()
 /*     */         {
 /*     */           public void actionPerformed(ActionEvent e) {
-/*  84 */             new JavaApplication12();
+/*  84 */             new Currencyconvert();
 /*  85 */             f.dispose();
 /*     */           }
 /*     */         });

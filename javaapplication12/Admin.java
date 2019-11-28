@@ -91,7 +91,7 @@
 /*     */         {
 /*     */           public void mouseClicked(MouseEvent e) {
 /*  93 */             super.mouseClicked(e);
-/*  94 */             new JavaApplication12();
+/*  94 */             new Currencyconvert();
 /*  95 */             f.dispose();
 /*     */           }
 /*     */         });

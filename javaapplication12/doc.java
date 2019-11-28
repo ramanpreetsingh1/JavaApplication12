@@ -240,7 +240,7 @@
 /* 240 */     btn1.addActionListener(new AbstractAction()
 /*     */         {
 /*     */           public void actionPerformed(ActionEvent e) {
-/* 243 */             new JavaApplication12();
+/* 243 */             new Currencyconvert();
 /* 244 */             f.dispose();
 /*     */           }
 /*     */         });

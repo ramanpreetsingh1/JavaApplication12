@@ -60,7 +60,7 @@
 /*  60 */     btn1.addActionListener(new AbstractAction()
 /*     */         {
 /*     */           public void actionPerformed(ActionEvent e) {
-/*  63 */             new JavaApplication12();
+/*  63 */             new Currencyconvert();
 /*  64 */             f.dispose();
 /*     */           }
 /*     */         });
@@ -94,7 +94,7 @@
 /*     */         {
 /*     */           public void mouseClicked(MouseEvent e) {
 /*  96 */             super.mouseClicked(e);
-/*  97 */             new JavaApplication12();
+/*  97 */             new Currencyconvert();
 /*  98 */             f.dispose();
 /*     */           }
 /*     */         });
